@@ -1,19 +1,33 @@
-function setup()
-{
+function setup() {
 	//create a large square canvas
 	createCanvas(800, 800);
 }
 
-function draw()
-{
+function draw() {
+	fill(0, 250, 0);
+	rect(0, 0, 800, 800);
 
 	//set the fill colour to red
 	fill(255, 0, 0);
 
-	//set a thick stroke weight for the black lines
-	strokeWeight(12);
+	//draw the red rectangle
+	rect(180, -10, 650, 650);
 
-	//draw the red rectangle 
-	rect(100, 50, 600, 600);
+	// white rectangle
+	fill(255, 255, 255);
+	rect(0, 0, 180, 340);
 
+	rect(0, 300, 180, 340);
+
+	rect(180, 640, 530, 160);
+
+	rect(710, 640, 90, 80);
+
+	// blue rectangle
+	fill(0, 0, 255);
+	rect(0, 640, 180, 160);
+
+	// yellow rectangle
+	fill(255, 255, 0);
+	rect(710, 720, 90, 80);
 }
