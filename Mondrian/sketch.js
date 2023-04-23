@@ -4,16 +4,14 @@ function setup() {
 }
 
 function draw() {
-	fill(0, 250, 0);
-	rect(0, 0, 800, 800);
-
+	strokeWeight(0);
 	//set the fill colour to red
 	fill(255, 0, 0);
 
 	//draw the red rectangle
 	rect(180, -10, 650, 650);
 
-	// white rectangle
+	// // white rectangle
 	fill(255, 255, 255);
 	rect(0, 0, 180, 340);
 
@@ -36,28 +34,23 @@ function draw() {
 	//set the fill colour to red
 	fill(0, 0, 0);
 	//set a thick stroke weight for the black lines
-	strokeWeight(12);
 	//draw the red rectangle 
-	rect(180, -10, 10, 1000);
+	rect(170, -10, 20, 1000);
 
 	// Long horizontal
 	fill(0, 0, 0);
-	strokeWeight(12);
-	rect(-10, 600, 1000, 10);
+	rect(-10, 630, 1000, 20);
 
 	// Top left horizontal
 	fill(0, 0, 0);
-	strokeWeight(12);
-	rect(-10, 240, 180, 25);
+	rect(-10, 270, 180, 40);
 
 	// Bottom right horizontal
 	fill(0, 0, 0);
-	strokeWeight(12);
-	rect(700, 700, 180, 25);
+	rect(710, 710, 180, 30);
 
 	// Bottom right vertical
 	fill(0, 0, 0);
-	strokeWeight(12);
-	rect(700, 600, 10, 200);
+	rect(710, 630, 20, 200);
 
 }
